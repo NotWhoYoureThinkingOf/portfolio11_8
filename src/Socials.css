@@ -1,0 +1,22 @@
+.socials > a {
+  color:rgba(255, 255, 255, 0.884);
+  font-size:1.8rem;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+}
+
+.socials > a i{
+  transition: all .2s ease-in-out;
+  
+}
+
+.socials > a:hover i{
+  color:#39dcf1;
+  transform:scale(1.2)
+}
+
+@media only screen and (max-width: 421px){
+  .socials > a {
+    font-size:1.7rem;
+  }
+}

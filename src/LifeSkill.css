@@ -1,0 +1,57 @@
+.lifeSkill{
+  display:flex;
+  justify-content:center;
+  margin-bottom:50px;
+}
+
+.lifeSkill__container{
+  display:flex;
+  justify-content: center;
+  max-width: 980px;
+  width: 96%;
+}
+
+.lifeSkill__topic{
+  display:flex;
+  /* align-items: flex-start; */
+  /* margin-bottom:15px; */
+  height:45px;
+  flex:0.35;
+}
+
+.lifeSkill__topic > h2{
+  border-bottom:3px solid #11ABB0;
+  font-size:1.5rem;
+  font-weight:400;
+}
+
+.lifeSkill__info{
+  flex: 0.65;
+  padding-left:20px;
+}
+
+.lifeSkill__info > h2{
+  margin-bottom:10px;
+}
+
+.lifeSkill__title{
+  display:flex;
+  align-items:center;
+  color: #555;
+}
+
+.lifeSkill__title > h3{
+  font-weight:400;
+  font-size:1rem;
+  font-style: italic;
+}
+
+.lifeSkill__title > span{
+  font-weight:400;
+  font-size:1rem;
+}
+
+.lifeSkill__info > p{
+  margin-top:30px;
+  color: #555;
+}

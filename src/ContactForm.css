@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.contactForm{
+  background-color:#222;
+  display:flex;
+  padding:80px 20px;
+  justify-content: center;
+}
+
+.contactForm__container{
+  display:flex;
+  justify-content: space-between;
+  width:70%;
+  max-width:980px;
+  min-width:980px;
+}
+
+.contactForm__left{
+  flex:.5;
+}
+
+.contactForm__top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+}
+
+.contactForm__top > h3{
+  color: white;
+  font-size: .95rem;
+  font-weight:200;
+  transform: translateY(20px);
+  line-height:1.5;
+  display:none;
+}
+
+.contactForm__top > .MuiSvgIcon-root{
+  fill:white !important;
+  font-size: 5.5rem !important;
+  transform:translateX(-7px);
+  margin-bottom:30px;
+}
+
+.contactForm__right{
+  flex:.5;
+  text-align: center;
+  position:relative;
+}
+
+.contactForm__right > h3{
+  color: white;
+  font-size: .95rem;
+  font-weight: 200;
+  position:absolute;
+  top:145px;
+  left:30%;
+  line-height:1.5;
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  position:relative;
+}
+
+.contact-form input{
+  height:50px;
+  margin-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+  outline:none;
+  background-color:#444;
+  font-size:.95rem;
+  border:none;
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+
+.contact-form input:focus{
+  background-color:white;
+  color:black;
+}
+
+.contact-form label{
+  color:white;
+  margin-bottom:10px;
+}
+
+.contact-form textarea{
+  background-color:#444;
+  padding:20px 20px;
+  line-height:1.5;
+  outline:none;
+  border:none;
+  font-size:.9rem;
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+
+.contact-form textarea:focus{
+  background-color:white;
+  color:black;
+}
+
+#contact-form-button{
+  margin-top:50px;
+  border-radius:10px;
+  font-size:1.1rem;
+  cursor:pointer;
+  height: 60px;
+  letter-spacing: .5px;
+  transition:all .2s ease-in-out;
+  display:block
+}
+
+#contact-form-button:hover{
+  background-color:#5cb85c;
+}
+
+.email-sent{
+  position:absolute;
+  background-color:white;
+  bottom:20px;
+  border-radius:10px;
+  width:100%;
+  height:60px;
+  display:none;
+  place-items:center;
+  background-color:#5cb85c;
+  color:white;
+}
+
+.email-sent > .MuiSvgIcon-root{
+  font-size:2rem !important;
+} 
+
+@media only screen and (max-width:1100px){
+  .contactForm__container{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    max-width:980px;
+    min-width:auto;
+    padding: 0px 50px;
+  }
+
+  .contactForm__top > h3{
+    display:block;
+    text-align:center;
+  }
+
+  .contactForm__right{
+    display:none;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .contactForm{
+    padding:80px 0;
+  }
+
+  .contactForm__container{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    max-width:auto;
+    min-width:auto;
+    padding: 0px;
+  }
+
+  .contactForm__top {
+    flex-direction: column;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+
+  .contactForm__top > h3{
+    display:block;
+    text-align:center;
+  }
+
+  .contactForm__top > .MuiSvgIcon-root {
+    fill: white !important;
+    font-size: 5.5rem !important;
+    transform: translateX(0px);
+    margin-bottom: 0;
+}
+
+  .contactForm__left {
+    flex: .5 1;
+    width: 90%;
+  }
+
+  .contact-form input {
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .contactForm__right{
+    display:none;
+  }
+}
