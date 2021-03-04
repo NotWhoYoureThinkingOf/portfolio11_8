@@ -1,66 +1,95 @@
-import reactIcon from './assets/react-icon.png'
-import reduxIcon from './assets/redux-icon.png'
-import firebaseIcon from './assets/firebase-icon.png'
-import expressIcon from './assets/express-icon.png'
-import mongodbIcon from './assets/mongodb-icon.png'
-import nodeIcon from './assets/node-icon.png'
-import stripeIcon from './assets/stripe-icon.png'
-import sassIcon from './assets/sass-icon.png'
-import gsapIcon from './assets/gsap-icon.png'
+import reactIcon from "./assets/react-icon.png";
+import reduxIcon from "./assets/redux-icon.png";
+import firebaseIcon from "./assets/firebase-icon.png";
+import expressIcon from "./assets/express-icon.png";
+import mongodbIcon from "./assets/mongodb-icon.png";
+import nodeIcon from "./assets/node-icon.png";
+import stripeIcon from "./assets/stripe-icon.png";
+import sassIcon from "./assets/sass-icon.png";
+import gsapIcon from "./assets/gsap-icon.png";
+import nextIcon from "./assets/nextjs-icon.png";
+import photoshopIcon from "./assets/photoshop-icon.png";
+import shopifyIcon from "./assets/shopify-icon.png";
+import framerMotionIcon from "./assets/framer-motion-icon.png";
 
 export default [
   {
     fields: {
       name: "react",
-      image: `${reactIcon}`
+      image: `${reactIcon}`,
     },
   },
   {
     fields: {
       name: "redux",
-      image: `${reduxIcon}`
+      image: `${reduxIcon}`,
+    },
+  },
+  {
+    fields: {
+      name: "Next.js",
+      image: `${nextIcon}`,
     },
   },
   {
     fields: {
       name: "firebase",
-      image: `${firebaseIcon}`
+      image: `${firebaseIcon}`,
     },
   },
   {
     fields: {
       name: "express",
-      image: `${expressIcon}`
+      image: `${expressIcon}`,
     },
   },
   {
     fields: {
       name: "node",
-      image: `${nodeIcon}`
+      image: `${nodeIcon}`,
     },
   },
   {
     fields: {
       name: "mongoDB",
-      image: `${mongodbIcon}`
+      image: `${mongodbIcon}`,
     },
   },
   {
     fields: {
       name: "stripe",
-      image: `${stripeIcon}`
+      image: `${stripeIcon}`,
     },
   },
   {
     fields: {
       name: "Sass",
-      image: `${sassIcon}`
+      image: `${sassIcon}`,
+    },
+  },
+
+  {
+    fields: {
+      name: "GSAP",
+      image: `${gsapIcon}`,
     },
   },
   {
     fields: {
-      name: "GSAP",
-      image: `${gsapIcon}`
+      name: "Framer Motion",
+      image: `${framerMotionIcon}`,
+    },
+  },
+  {
+    fields: {
+      name: "Photoshop",
+      image: `${photoshopIcon}`,
+    },
+  },
+  {
+    fields: {
+      name: "Shopify",
+      image: `${shopifyIcon}`,
     },
   },
 ];

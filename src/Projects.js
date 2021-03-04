@@ -57,13 +57,16 @@ function Projects() {
           <div className="clip clip2 netflix">
             <Project
               image={netflix}
-              link="https://netflix-clone-7387f.firebaseapp.com/"
+              link="https://netflix-next.vercel.app/"
               title="Netflix Clone"
-              desc="A clone of the popular streaming platform Netflix"
+              desc="A clone of the popular streaming platform Netflix made with Next.js"
             />
             <div className="project__info">
-              <p>A clone of streaming platform Netflix</p>
-              <a href="https://github.com/NotWhoYoureThinkingOf/netflix-clone">
+              <p>
+                A clone of the popular streaming platform Netflix made with
+                Next.js
+              </p>
+              <a href="https://github.com/NotWhoYoureThinkingOf/netflix-next">
                 Check out the code here
               </a>
             </div>
@@ -142,13 +145,13 @@ function Projects() {
           <div className="projects__projectMobile">
             <Project
               image={netflix}
-              link="https://netflix-clone-7387f.firebaseapp.com/"
+              link="https://netflix-next.vercel.app/"
               title="Netflix Clone"
-              desc="A clone of streaming platform Netflix"
+              desc="A clone of the popular streaming platform Netflix made with Next.js"
             />
             <div className="project__mobileinfo">
               <p>A clone of streaming platform Netflix</p>
-              <a href="https://github.com/NotWhoYoureThinkingOf/netflix-clone">
+              <a href="https://github.com/NotWhoYoureThinkingOf/netflix-next">
                 Check out the code here
               </a>
             </div>

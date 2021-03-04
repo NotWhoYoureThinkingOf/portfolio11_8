@@ -32,17 +32,6 @@ function Header() {
     });
   }, []);
 
-  // useEffect(() => {
-  //   // gsap.to(".projects",
-  //   // {
-  //   //   yPercent: 50,
-  //   //   scrollTrigger: {
-  //   //     trigger: ".projects",
-  //   //     scrub: true
-  //   //   }
-  //   // })
-  // })
-
   return (
     <div className="header" id="header">
       <a href="#banner">HOME</a>
