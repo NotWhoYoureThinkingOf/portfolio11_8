@@ -11,6 +11,8 @@ import nextIcon from "./assets/nextjs-icon.png";
 import photoshopIcon from "./assets/photoshop-icon.png";
 import shopifyIcon from "./assets/shopify-icon.png";
 import framerMotionIcon from "./assets/framer-motion-icon.png";
+import typescriptIcon from "./assets/typescript-icon.png";
+import awsIcon from "./assets/aws-icon.png";
 
 export default [
   {
@@ -27,6 +29,18 @@ export default [
   },
   {
     fields: {
+      name: "React Native",
+      image: `${reactIcon}`,
+    },
+  },
+  {
+    fields: {
+      name: "typescript",
+      image: `${typescriptIcon}`,
+    },
+  },
+  {
+    fields: {
       name: "Next.js",
       image: `${nextIcon}`,
     },
@@ -35,6 +49,12 @@ export default [
     fields: {
       name: "firebase",
       image: `${firebaseIcon}`,
+    },
+  },
+  {
+    fields: {
+      name: "AWS Amplify",
+      image: `${awsIcon}`,
     },
   },
   {
@@ -88,7 +108,7 @@ export default [
   },
   {
     fields: {
-      name: "Shopify",
+      name: "Liquid (Shopify)",
       image: `${shopifyIcon}`,
     },
   },
